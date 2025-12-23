@@ -1,5 +1,5 @@
 local WordsByLetter = {
-    A = {
+    ["A"] = {
         -- Existing 100 words (from earlier):
         "apple", "ant", "astronaut", "anchor", "alphabet", "avalanche", "acorn", "armadillo",
         "arrow", "alligator", "apricot", "amethyst", "asteroid", "accordion", "avocado",
@@ -41,7 +41,7 @@ local WordsByLetter = {
         "allure", "allusion", "ally", "almond", "almost", "alms", "aloft", "alone",
         "alongside", "aloof", "aloud", "alpaca", "alpha", "alpine", "already", "altar"
     },
-    B = {
+    ["B"] = {
         -- Existing 100 words:
         "banana", "bat", "ball", "butterfly", "bread", "bubble", "bridge", "button",
         "bumblebee", "barnacle", "balcony", "bicycle", "bottle", "bracelet", "bucket",
@@ -83,7 +83,7 @@ local WordsByLetter = {
         "bawl", "bay", "bayberry", "bayonet", "bazaar", "beachcomber", "beachhead",
         "beacon", "bead", "beak", "beam", "bean", "bearable", "beard", "bearing"
     },
-    C = {
+    ["C"] = {
         -- Existing 100 words:
         "cat", "car", "candle", "castle", "caterpillar", "cactus", "camera", "cabin",
         "candy", "cannon", "canyon", "cap", "carrot", "cashew", "cave", "ceiling",
@@ -129,7 +129,7 @@ local WordsByLetter = {
         "cartel", "cartilage", "cartography", "carton", "cartoon", "cartridge",
         "carve", "cascade", "case", "casein", "casement", "cash", "cashew", "cashier"
     },
-           D = {
+           ["D"] = {
         -- First 100 (existing):
         "dog", "door", "dragon", "diamond", "dolphin", "donut", "drum", "dagger",
         "daisy", "dart", "deer", "desk", "dessert", "detective", "dew", "diagram",
@@ -180,7 +180,7 @@ local WordsByLetter = {
         "demerit", "demesne", "demigod", "demijohn", "demilitarize", "demise",
         "demit", "demo", "demobilize", "democrat", "demolish", "demon"
     },
-    E = {
+    ["E"] = {
         -- First 100 words:
         "elephant", "eagle", "engine", "echo", "eclipse", "edge", "eggplant", "elbow",
         "elixir", "elm", "embryo", "emerald", "enigma", "equator", "espresso", "eternity",
@@ -235,7 +235,7 @@ local WordsByLetter = {
         "endure", "endways", "enema", "enemy", "energize", "enervate", "enfeeble",
         "enfold", "enforce", "engage", "engender", "engineer", "engorge", "engrave"
     },
-    F = {
+    ["F"] = {
         "fabric", "face", "fact", "factory", "faculty", "fade", "fail", "fair", "faith", "fall",
         "false", "family", "famous", "fan", "fancy", "far", "farm", "fast", "fat", "father",
         "fault", "fear", "feast", "feather", "feature", "federal", "fee", "feed", "feel", "female",
@@ -275,7 +275,7 @@ local WordsByLetter = {
         "furious", "furnace", "furniture", "further", "futile"
     },
 
-    G = {
+    ["G"] = {
         "game", "gap", "garage", "garbage", "garden", "gas", "gate", "gather", "gaze", "gear",
         "gem", "general", "gentle", "genuine", "geography", "gift", "girl", "give", "glad", "glass",
         "glide", "globe", "glow", "go", "goal", "goat", "gold", "golf", "good", "govern",
@@ -306,7 +306,7 @@ local WordsByLetter = {
         "guava", "guitar", "gullible", "gutter", "gymnastics"
     },
 
-    H = {
+    ["H"] = {
         "habit", "hair", "half", "hall", "hammer", "hand", "happy", "harbor", "hard", "harvest",
         "hat", "have", "hawk", "hazard", "head", "health", "heart", "heat", "heaven", "heavy",
         "height", "hello", "help", "hen", "hero", "high", "hill", "hint", "hip", "history",
@@ -335,7 +335,7 @@ local WordsByLetter = {
         "husky", "hydrant", "hyena"
     },
 
-    I = {
+    ["I"] = {
         "ice", "icon", "idea", "ideal", "idle", "ignite", "ignore", "image", "imagine", "immense",
         "immune", "impact", "important", "improve", "inch", "include", "increase", "indeed", "indicate", "industry",
         "infant", "inform", "inhale", "inherit", "initial", "inject", "injury", "insect", "inside", "inspire",
@@ -377,7 +377,7 @@ local WordsByLetter = {
         "italic", "itemized", "itinerary"
     },
 
-    J = {
+    ["J"] = {
         "jackal", "jacket", "jaguar", "jam", "jar", "jasmine", "jaw", "jazz", "jeans", "jeep",
         "jelly", "jellyfish", "jet", "jewel", "job", "jog", "join", "joke", "journey", "joy",
         "judge", "juice", "jump", "jungle", "junior", "junk", "just", "jacket", "jaguar", "jamboree",
@@ -408,7 +408,7 @@ local WordsByLetter = {
         "jukebox", "jumpstart", "juncture", "jurisdiction", "jury", "justice", "juxtapose"
     },
 
-    K = {
+    ["K"] = {
         "kangaroo", "karate", "kayak", "ketchup", "kettle", "key", "keyboard", "kick", "kid", "kind",
         "king", "kiss", "kitchen", "kite", "kitten", "kiwi", "knee", "knife", "knight", "know",
         "koala", "kangaroo", "karat", "karma", "kayak", "keel", "keen", "keep", "keg", "kelp",
@@ -440,7 +440,7 @@ local WordsByLetter = {
         "knock", "knot", "know", "knowledge", "koala"
     },
 
-    L = {
+    ["L"] = {
         "lake", "lamp", "language", "laptop", "laugh", "leaf", "lemon", "letter", "light", "lion",
         "lizard", "llama", "lock", "ladder", "lady", "lake", "lamp", "land", "large", "last",
         "late", "laugh", "law", "lazy", "leader", "leaf", "learn", "leave", "left", "leg",
@@ -470,7 +470,7 @@ local WordsByLetter = {
         "luxury", "lynx", "lyric"
     },
 
-    M = {
+    ["M"] = {
         "magic", "mail", "map", "marble", "mask", "meal", "meat", "medicine", "melon", "mirror",
         "money", "monkey", "moon", "mountain", "mouse", "mouth", "movie", "music", "machine", "magazine",
         "magnet", "maid", "mailbox", "main", "make", "male", "mall", "man", "manage",
@@ -505,7 +505,7 @@ local WordsByLetter = {
         "mouse", "mouth", "move", "movie", "muffin", "multiply", "muscle", "museum",
         "music", "mystery"
     },
-    N = {
+    ["N"] = {
         "name", "napkin", "narwhal", "nation", "nature", "navy", "neck", "needle", "nest",
         "net", "news", "night", "ninja", "nose", "note", "novel", "number", "nurse",
         "nut", "nail", "narrow", "native", "natural", "near", "neat", "necessary", "necklace",
@@ -543,7 +543,7 @@ local WordsByLetter = {
         "numerical", "nurse", "nurture", "nutmeg"
     },
 
-    O = {
+    ["O"] = {
         "ocean", "octopus", "olive", "orange", "orchid", "ostrich", "owl", "oasis",
         "oat", "oboe", "office", "oil", "onion", "orbit", "orchard", "otter",
         "oven", "ox", "oar", "oasis", "obstacle", "occupy", "octagon", "odd",
@@ -574,7 +574,7 @@ local WordsByLetter = {
         "owe", "owl", "own", "owner", "ox", "oxygen", "oyster", "ozone"
     },
 
-    P = {
+    ["P"] = {
         "panda", "parrot", "peacock", "penguin", "piano", "pizza", "planet", "pocket",
         "potato", "pumpkin", "puppy", "puzzle", "pyramid", "paddle", "pail", "paint",
         "palace", "pan", "paper", "park", "party", "path", "pattern", "peace",
@@ -610,7 +610,7 @@ local WordsByLetter = {
         "pure", "purple", "purpose", "purse", "push", "put", "puzzle", "pyramid"
     },
 
-    Q = {
+    ["Q"] = {
         "queen", "quilt", "quarter", "question", "quiet", "quill", "quiz", "quote",
         "quack", "quadrant", "quail", "quake", "quality", "quantity", "quarantine", "quarry",
         "quart", "quartz", "queen", "queer", "quench", "query", "quest", "queue",
@@ -635,7 +635,7 @@ local WordsByLetter = {
         "quit", "quite", "quiver", "quota", "quotation"
     },
 
-    R = {
+    ["R"] = {
         "rabbit", "rainbow", "raven", "river", "robot", "rose", "radio", "rain",
         "rake", "ram", "rat", "red", "reward", "rice", "ring", "road",
         "rocket", "roof", "room", "rope", "row", "ruler", "rabbit", "race",
@@ -674,7 +674,7 @@ local WordsByLetter = {
         "respect", "response", "rest", "result", "retire", "return", "reveal", "review"
     },
 
-    S = {
+    ["S"] = {
         "sun", "star", "snake", "spider", "shark", "squirrel", "swan", "sand", "sea",
         "seed", "shell", "ship", "shirt", "shoe", "sky", "smile", "snow",
         "sock", "song", "spoon", "street", "sugar", "summer", "swing", "table",
@@ -700,7 +700,7 @@ local WordsByLetter = {
         "supply", "support", "sure", "surface", "surprise", "sweet", "swim", "system"
     },
 
-    T = {
+    ["T"] = {
         "tiger", "tree", "table", "tent", "train", "truck", "turtle", "television",
         "tomato", "tooth", "tower", "tractor", "traffic", "treasure", "tropical", "taco",
         "tail", "take", "talk", "tall", "taste", "tax", "teach", "team",
@@ -744,7 +744,7 @@ local WordsByLetter = {
         "turtle", "tv", "twelve", "twenty", "twice", "twin", "twist", "two"
     },
 
-    U = {
+    ["U"] = {
         "umbrella", "unicorn", "uniform", "uplift", "upon", "upper", "upset", "urban",
         "urge", "urgent", "use", "useful", "usual", "utmost", "utter", "ultimate",
         "ultra", "umbrella", "unable", "unaware", "uncle", "under", "underground", "understand",
@@ -773,7 +773,7 @@ local WordsByLetter = {
         "upon", "upper", "upright", "upset", "upside", "upstairs", "uptown", "upward"
     },
 
-    V = {
+    ["V"] = {
         "vase", "violin", "van", "vegetable", "velvet", "venus", "vulture", "vacation",
         "vacuum", "valley", "value", "van", "vanish", "variable", "variety", "various",
         "vast", "vegetable", "vehicle", "velvet", "venture", "verb", "verify", "version",
@@ -802,7 +802,7 @@ local WordsByLetter = {
         "vital", "vitamin", "voice", "volume", "vote", "vulture", "vacation", "valuable"
     },
 
-    W = {
+    ["W"] = {
         "water", "window", "wolf", "whale", "wave", "wood", "world", "watch",
         "wall", "wheel", "wind", "wine", "wing", "winter", "wire", "wish",
         "woman", "wonder", "word", "work", "worm", "wrench", "waffle", "wagon",
@@ -835,7 +835,7 @@ local WordsByLetter = {
         "work", "world", "worry"
     },
 
-    X = {
+    ["X"] = {
         "xylophone", "xray", "xerox", "xenon", "xeric", "xylose", "xenophobia", "xanthan",
         "xiphoid", "xylem", "xenolith", "xerophyte", "xylitol", "xanthic", "xenial", "xeric",
         "xylograph", "xenon", "xylophone", "xray", "xerox", "xaxis", "xenophobia", "xanthophyll",
@@ -850,7 +850,7 @@ local WordsByLetter = {
         "xenodochial", "xerothermic", "xylophonist", "xenogenesis", "xiphoid", "xylotomy"
     },
 
-    Y = {
+    ["Y"] = {
         "yellow", "yacht", "yak", "yam", "yarn", "yawn", "year", "yell",
         "yellow", "yes", "yesterday", "yet", "yield", "yoga", "yogurt", "yoke",
         "yolk", "you", "young", "your", "youth", "yummy", "yard", "yarn",
@@ -875,7 +875,7 @@ local WordsByLetter = {
         "young", "your", "youth", "yummy"
     },
 
-    Z = {
+    ["Z"] = {
         "zebra", "zoo", "zipper", "zero", "zone", "zucchini", "zigzag", "zinc",
         "zombie", "zen", "zest", "zoom", "zebra", "zero", "zigzag", "zinc",
         "zip", "zipper", "zodiac", "zone", "zoo", "zucchini", "zenith", "zephyr",
